@@ -1,3 +1,12 @@
 .navbar {
   display: block !important;
+  box-shadow: 0 4px 4px -2px rgb(165, 165, 165);
+  background-color: rgb(244, 246, 255);
+}
+
+.nav-link {
+  color: rgb(0, 3, 37);
+  &:hover {
+    font-weight: bold;
+  }
 }
