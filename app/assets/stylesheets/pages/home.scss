@@ -1,14 +1,18 @@
 .container-home {
   width: 100%;
+  height: 100%;
+  margin: 0 auto;
   padding: 0;
+  background-color: #fff5e3;
 }
 
 .home-banner {
   position: relative;
   padding: 0;
   margin: 0;
-  // height: 50vh;
-  color: #ECCD97;
+  height: 40vh;
+  overflow: hidden;
+  z-index: 1;
 }
 
 .home-banner::after {
@@ -17,7 +21,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 0.5; /* Define a opacidade desejada */
+  opacity: 0.5;
   top: 0;
   left: 0;
   right: 0;
@@ -26,11 +30,15 @@
   z-index: -1; /* Mantém a imagem de fundo atrás do conteúdo da div */
 }
 
-.banner-img {
-  width: 100%;
-}
 
 .ra-banner {
   color: #302616;
   text-shadow: 2px 2px 0px #ECCD97;
+  z-index: 2;
+}
+
+.content-home {
+  // background-color: #ECCD97;
+  // background-color: #130e08;
+  color: #302616;
 }
