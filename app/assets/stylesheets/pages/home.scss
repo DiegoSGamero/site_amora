@@ -10,7 +10,9 @@
   position: relative;
   padding: 0;
   margin: 0;
+  margin-bottom: 20px;
   height: 40vh;
+  box-shadow: 0 4px 4px -2px rgb(165, 165, 165);
   overflow: hidden;
   z-index: 1;
 }
@@ -33,16 +35,24 @@
 
 .ra-banner {
   color: #302616;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
-  font-weight: 600;
-  text-shadow: 2px 2px 0px #ECCD97;
+  // text-shadow: 2px 2px 0px #ECCD97;
   z-index: 2;
+  h1 {
+    font-weight: 700;
+  }
 }
 
 .content-home {
   color: #302616;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  h1 {
+    font-weight: 600;
+  }
+  p {
+    font-weight: 400;
+    line-height: 1.70;
+  }
 }
