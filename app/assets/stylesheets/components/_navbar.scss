@@ -5,10 +5,14 @@
 }
 
 .nav-link {
-  color: #ECCD97;
+  color: #ECCD97 !important;
   font-size: large;
   font-weight: bold;
   &:hover {
     color: #fae6c5;
+  }
+  &:visited,
+  &:active {
+    color: #ECCD97 !important; // Altere a cor aqui para o que desejar
   }
 }
