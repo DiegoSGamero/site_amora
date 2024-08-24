@@ -61,5 +61,5 @@ group :development do
   # gem "spring"
 end
 
-gem 'bootstrap', '~> 5.1.3'
-gem 'ffi', '~> 1.17'
+gem 'bootstrap'
+gem 'ffi'
