@@ -19,7 +19,7 @@
 
 .home-banner::after {
   content: "";
-  background-image: url('vista_franca.JPG');
+  background-image: asset-url('vista_franca.JPG');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
