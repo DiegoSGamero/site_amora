@@ -1,6 +1,40 @@
-<div class="container heritage-page">
+<div class="container heritage-page" data-controller="heritage">
   <div class="heritage-title text-center m-5">
     <h1>Patrimônio Cultural</h1>
+  </div>
+  <div class=" d-none d-lg-block heritage-topics d-flex justify-content-center">
+    <div class="btn mb-3" data-action="click->heritage#scroll" data-topic="topicDantes">
+      <h6>E.E. Prof. Dantes</h6>
+    </div>
+    <div class="btn mb-3" data-action="click->heritage#scroll" data-topic="topicFabi">
+      <h6>EMEF Fabiano Alves de Freitas</h6>
+    </div>
+    <div class="btn mb-3" data-action="click->heritage#scroll" data-topic="topicSolar">
+      <h6> Relógio Solar </h6>
+    </div>
+    <div class="btn mb-3" data-action="click->heritage#scroll" data-topic="topicFran">
+      <h6> EE Cel. Francisco Martins </h6>
+    </div>
+    <div class="btn mb-3" data-action="click->heritage#scroll" data-topic="topicMogiana">
+      <h6> Estação Mogiana </h6>
+    </div>
+    <div class="btn mb-3" data-action="click->heritage#scroll" data-topic="topicChampa">
+      <h6> Colégio Champagnat </h6>
+    </div>
+  </div>
+  <div class="d-none d-lg-block heritage-topics d-flex justify-content-center mb-3">
+    <div class="btn mb-3 col-3">
+      <h6>Museu “JOSÉ CHIACHIRI”</h6>
+    </div>
+    <div class="btn mb-3 col-3">
+      <h6>Cadeia Pública</h6>
+    </div>
+    <div class="btn mb-3 col-3">
+      <h6> Frontão do Estádio do Palmeiras </h6>
+    </div>
+    <div class="btn mb-3 col-2">
+      <h6> Casa do Pintor Bonaventura </h6>
+    </div>
   </div>
   <div class="prof-dantes heri-box mb-5 pb-3">
     <div class="mb-5">
@@ -74,6 +108,10 @@
       <%= image_tag "EE_francisco_martins.jpg", class: "francis-img" %>
     </div>
   </div>
+  <div class=" text-justify mb-3">
+      <h4> <strong> Fonte: </strong> Base de Dados Conselho de Defesa do Patrimônio Histórico, Arqueológico, Artístico e Turístico do Estado de São Paulo (CONDEPHAAT - SP)</h4>
+      <h5> <%= link_to "http://condephaat.sp.gov.br/bens-protegidos-online/ ", "http://condephaat.sp.gov.br/bens-protegidos-online/ ", target: "_blank" %></h5>
+    </div>
   <div class="mogiana heri-box my-5">
     <div class="mb-3">
       <h2> Estação Mogiana </h2>
